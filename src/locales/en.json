@@ -1,0 +1,154 @@
+{
+  "navbar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "Resume"
+  },
+  "hero": {
+    "greeting": "Hello, I am",
+    "tagline": "I'm a web developer passionate about crafting innovative digital experiences .",
+    "description": {
+      "part1": "I am a",
+      "webDeveloper": "Full-stack developer",
+      "part2": "specializing in building modern, user-focused websites and web applications",
+      "technologies": "using modern full-stack JavaScript technologies."
+    },
+    "contactButton": "Get in touch!"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "paragraph1": {
+      "part1": "I honed my web development skills through",
+      "odinProject": "The Odin Project",
+      "part2": ",an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer. "
+    },
+    "paragraph2": {
+      "part1": "I’m always eager to explore new concepts, technologies, and tools to enhance my ability to create ",
+      "emphasis": "customer-centered web experiences."
+    },
+    "paragraph3": {
+      "part1": "I specialize in using the JavaScript library,",
+      "react": "React",
+      "part2": "to create the",
+      "frontend": "frontend",
+      "part3": "of my applications and the",
+      "nestjs": "ExpressJS",
+      "part4": "framework, as well as the Non relational database",
+      "postgresql": "MongoDB",
+      "part5": "to create",
+      "restfulApis": "RESTful APIs",
+      "part6": "to power the",
+      "backend": "backend",
+      "part7": "of these applications."
+    },
+    "imageAlt": "React and NestJS logos"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps"
+    },
+    "frontend": {
+      "html": "HTML",
+      "css": "CSS",
+      "typescript": "TypeScript",
+      "react": "React",
+      "tailwindCss": "Tailwind CSS",
+      "vueJs": "Vue.js",
+      "tanstackQuery": "TanStack Query",
+      "nextJs": "Next.js",
+      "redux": "Redux",
+      "daisyUi": "Daisy UI"
+    },
+    "backend": {
+      "nodeJs": "Node.js",
+     
+      "mongodb": "MongoDB",
+    
+      "expressJs": "Express.js",
+     
+      "firebase": "Firebase"
+    },
+    "devops": {
+      "git": "Git",
+      "github": "GitHub",
+      "webpack": "Webpack",
+    
+      "render": "Render"
+    },
+    "mainTechnologies": "Main Technologies",
+    "complementaryTechnologies": "Complementary Technologies"
+  },
+  "projects": {
+    "title": "Projects",
+    "info": {
+      "part1": "Projects that include ",
+      "highlight1": "Express.js APIs for the backend ",
+      "part2": "(e.g., VibeCircle, Messaging App ...) will need a few seconds to make their servers operational following an initial request. The APIs for these projects are hosted for free on the ",
+      "part3": "platform, which ",
+      "highlight2": "suspends the activity ",
+      "part4": "of hosted servers ",
+      "highlight3": "after 15 minutes of inactivity."
+    },
+    "odinBook": {
+      "description": "A social media application that implements the main features of social media platforms. Key features include adding friends, creating and customizing user profiles, as well as posting posts, photos, and comments.",
+      "highlight": "social media application"
+    },
+    "messagingApp": {
+      "description": "A web messaging application that allows users to send and receive real-time messages using web sockets implemented through the Socket.IO library.",
+      "highlight": "web messaging application"
+    },
+    "devLog": {
+      "description": "A personal blog platform designed to share my research and discoveries in web development. This project provides a space to document my learning journey, present tutorials, and explore new web technologies.",
+      "highlight": "personal blog platform"
+    },
+    "instagramClone": {
+      "description": "A full-stack Instagram clone that implements the main features of the social media platform. Key features include authentication, creating and deleting posts, as well as a real-time user search interface.",
+      "highlight": "full-stack Instagram clone"
+    },
+    "odinBlog": {
+      "description": "A functional blog allowing users to authenticate, read articles, and add comments. The frontend part of the blog is powered by a RESTful API created through Express.js and MongoDB.",
+      "highlight": "functional blog"
+    },
+    "shoppingCart": {
+      "description": "An online computer store created through React to reflect, in real-time, changes resulting from user interactions. The site allows users to browse, add, and remove items from their cart.",
+      "highlight": "online computer store"
+    },
+    "featuredProject": "Featured Project"
+  },
+  "noteworthyProjects": {
+    "title": "Other Noteworthy Projects",
+    "membersOnly": {
+      "description": "An exclusive clubhouse application created using Express.js and Passport.js for authentication."
+    },
+    "battleship": {
+      "description": "A strategic multiplayer game built with Vanilla JavaScript and driven by tests implemented through Jest."
+    },
+    "wheresWaldo": {
+      "description": "An interactive version of 'Where's Waldo?', a game consisting of finding multiple characters in an image."
+    },
+    "cvApplication": {
+      "description": "A CV generator allowing users to dynamically create professional resumes."
+    },
+    "memoryCard": {
+      "description": "A memory game including 12 cards and 12 characters created using React."
+    },
+    "binarySearchTrees": {
+      "description": "An implementation of the binary search tree data structure written in JavaScript."
+    }
+  },
+  "contact": {
+    "nextStep": "What's Next?",
+    "title": "Get In Touch",
+    "description": "Feel free to reach out if you have a question or want to work together. I'll be happy to respond!",
+    "buttonText": "Say Hello"
+  },
+  "footer": {
+    "developedBy": "Developed by Hamza Eshoul",
+    "designedBy": "Designed by Brittany Chiang"
+  }
+}

@@ -1,0 +1,322 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* general styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+}
+
+/* fonts configuration */
+
+/* Sans Fonts */
+@font-face {
+  font-family: "Calibre";
+  src: url("./assets/fonts/Sans/CalibreRegular.otf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Sans/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "San Fransisco";
+  src: url("./assets/fonts/Sans/SFNSText-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/Sans/SF-Pro-Text.ttf");
+}
+
+.font-sans {
+  font-family:
+    "Calibre",
+    "Inter",
+    "Sans Fransisco",
+    "SF Pro Text",
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* Mono Fonts */
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("./assets/fonts/Mono/SFMonoRegular.otf");
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("./assets/fonts/Mono/FiraCode-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  src: url("./assets/fonts/Mono/FiraMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./assets/fonts/Mono/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "monospace";
+  src: url("./assets/fonts/Mono/SpaceMono-Regular.ttf");
+}
+
+.font-mono {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace";
+}
+
+/* tailwind */
+
+@layer components {
+  .nav-links {
+    @apply text-lightestTertiaryColor hover:text-secondaryColor cursor-pointer text-[13px] transition duration-300 ease-in-out;
+  }
+
+  .social-links {
+    @apply text-lightTertiaryColor cursor-pointer text-[20px];
+  }
+
+  .numberOfHeading {
+    @apply text-secondaryColor font-mono [font-size:_clamp(16px,3vw,20px)];
+  }
+
+  .numbered-headings {
+    @apply text-lightestTertiaryColor font-semibold [font-size:_clamp(26px,5vw,32px)];
+  }
+
+  .numbered-headings-bar {
+    @apply bg-lightestPrimaryColor xmd:w-[200px] xmd:grow-0 xlg:w-[300px] h-[1px] flex-grow;
+  }
+
+  .animate-social-links,
+  .animate-skill-icons {
+    @apply hover:text-secondaryColor transition-transform duration-300 ease-in-out hover:-translate-y-1;
+  }
+
+  .email-link {
+    @apply text-lightTertiaryColor rotate-90 cursor-pointer;
+  }
+
+  .animate-email-link {
+    @apply hover:text-secondaryColor transition-transform duration-300 ease-in-out hover:-translate-y-1;
+  }
+
+  .project-links {
+    @apply text-lightestTertiaryColor hover:text-secondaryColor cursor-pointer text-[20px] transition duration-300 ease-in-out;
+  }
+
+  .noteworthy-project-links {
+    @apply project-links text-[22px];
+  }
+
+  .skill-items {
+    @apply border-lightestPrimaryColor hover:bg-lightPrimaryColor hover:text-secondaryColor xsm:px-5 xmd:border-b-[0px] xmd:border-l-[2px] cursor-pointer border-b-[2px] px-2 py-3.5 font-mono text-[13px] transition  duration-300 ease-in-out;
+  }
+}
+
+/* logo svg */
+
+.logo-svg {
+  fill: #0a192f;
+  z-index: 10;
+}
+
+.logo-svg-background {
+  fill: #64ffda;
+}
+
+.logo-svg,
+.logo-svg-background {
+  width: 42px;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* grid layout */
+
+.noteworthy-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+@media (max-width: 1080px) {
+  .noteworthy-projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* animations */
+
+.fade-in-animation {
+  animation-duration: 0.4s;
+  animation-name: fade-in;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-appear-animation {
+  animation-duration: 0.5s;
+  animation-name: fade-appear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* navbar animation */
+
+.navbar-fade-appear-animation {
+  animation-duration: 0.4s;
+  animation-name: navbar-fade-appear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes navbar-fade-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.mobileMenu-slidein-animation {
+  animation-duration: 0.4s;
+  animation-name: mobile-menu-slidein;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mobile-menu-slidein {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobileMenu-slideout-animation {
+  animation-duration: 0.4s;
+  animation-name: mobile-menu-slideout;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mobile-menu-slideout {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+/* hamburger menu animation */
+
+.menuActive .menu-bar1 {
+  opacity: 0;
+  top: 50%;
+
+  transition:
+    top 0.1s ease-out,
+    opacity 0.1s ease-out 0.12s;
+}
+
+.menuActive .menu-bar2 {
+  transform: rotate(225deg);
+  transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.335, 1) 0.12s;
+}
+
+.menuActive .menu-bar3 {
+  bottom: 10px;
+  width: 100%;
+  transform: rotate(315deg);
+  transition:
+    bottom 0.1s ease-out,
+    transform 0.22s cubic-bezier(0.215, 0.61, 0.335, 1) 0.12s;
+}
+
+.menu-bar1 {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  opacity: 1;
+  height: 2px;
+  width: 120%;
+  border-radius: 4px;
+  transition:
+    top 0.1s ease-in 0.25s,
+    opacity 0.1s ease-in;
+  background-color: #64ffda;
+}
+
+.menu-bar2 {
+  opacity: 1;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  height: 2px;
+  width: 100%;
+  rotate: 0px;
+  border-radius: px;
+  background-color: #64ffda;
+  transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transform: rotate(0deg);
+}
+
+.menu-bar3 {
+  opacity: 1;
+  position: absolute;
+  right: 0px;
+  bottom: 1px;
+  transform: rotate(0deg);
+  height: 2px;
+  width: 80%;
+  rotate: 0px;
+  border-radius: 4px;
+  transition:
+    bottom 0.1s ease-in 0.25s,
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  background-color: #64ffda;
+}
