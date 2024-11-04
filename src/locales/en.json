@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hello, I am",
-    "tagline": "I'm a web developer passionate about crafting innovative digital experiences .",
+    "tagline": "I am a web developer who loves to turn ideas into fully developed applications.",
     "description": {
       "part1": "I am a",
       "webDeveloper": "Full-stack developer",
@@ -94,8 +94,8 @@
       "part4": "of hosted servers ",
       "highlight3": "after 15 minutes of inactivity."
     },
-    "odinBook": {
-      "description": "A social media application that implements the main features of social media platforms. Key features include adding friends, creating and customizing user profiles, as well as posting posts, photos, and comments.",
+    "VibeCircle": {
+      "description": "A social media application designed to promote community engagement and interaction. Built using the MERN stack (MongoDB, Express, React.js, Node.js) and styled with Tailwind CSS, this platform enables users to create, share, and interact with posts effortlessly.",
       "highlight": "social media application"
     },
     "messagingApp": {

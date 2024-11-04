@@ -4,14 +4,15 @@ import { RiFolderInfoLine } from "react-icons/ri";
 import Project from "../components/Project";
 import { ProjectData } from "../types";
 
+
 const projects_list: ProjectData[] = [
   {
     isReverse: false,
     image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740228/personal_portfolio/odinBook_dqeu5z.png",
-    title: "Odin Book",
-    repoLink: "https://github.com/hamza-eshoul/Odin-Book",
-    previewLink: "https://odin-book-project.onrender.com/",
+      "https://res.cloudinary.com/dicakrx1f/image/upload/v1730753926/portfolio/vibe-circle.png",
+    title: "VibeCircle",
+    repoLink: "https://github.com/Ainan-code/VibeCircle",
+    previewLink: "https://vibecircle.onrender.com/",
     technologies: [
       "React",
       "Tailwind CSS",
@@ -20,8 +21,8 @@ const projects_list: ProjectData[] = [
       "Cloudinary",
     ],
     description: {
-      text: "projects.odinBook.description",
-      highlight: "projects.odinBook.highlight",
+      text: "projects.VibeCircle.description",
+      highlight: "projects.VibeCircle.highlight",
     },
   },
   {
