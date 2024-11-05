@@ -37,7 +37,7 @@ const Contact = () => {
       </p>
 
       <a
-        href="mailto:hamza.eshoul.pro@gmail.com"
+        href="mailto: idle.ainanhassan@gmail.com"
         className="fade-in-animation group relative mt-12 h-[48px] w-[170px] -translate-x-1"
       >
         <button className="absolute bottom-0 left-0 right-0 top-0 z-20 w-full rounded border-[1px] border-secondaryColor bg-primaryColor font-mono text-[14px] text-secondaryColor transition-transform duration-300 ease-in-out group-hover:-translate-x-1 group-hover:-translate-y-1">

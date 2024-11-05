@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FaInstagram,  } from "react-icons/fa";
 
 interface SocialLink {
   icon: JSX.Element;
@@ -10,23 +10,16 @@ interface SocialLink {
 const social_links_icons: SocialLink[] = [
   {
     icon: <FiGithub />,
-    link: "https://github.com/hamza-eshoul",
+    link: "https://github.com/Ainan-code/",
   },
   {
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/hamza.eshoul",
+    link: "https://www.instagram.com/ainanhassan/",
   },
-  {
-    icon: <FiTwitter />,
-    link: "https://twitter.com/hamza_eshoul",
-  },
-  {
-    icon: <FaYoutube />,
-    link: "https://www.youtube.com/channel/UCP21svaUb9Cn4M2zlLiEoKA",
-  },
+ 
   {
     icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/hamza-eshoul/",
+    link: "https://www.linkedin.com/in/ainan-hassan",
   },
 ];
 

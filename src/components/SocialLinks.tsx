@@ -2,29 +2,22 @@ import { useInView } from "react-intersection-observer";
 
 // icons
 import { FiGithub } from "react-icons/fi";
-import { FaInstagram, FaYoutube } from "react-icons/fa";
-import { FiTwitter, FiLinkedin } from "react-icons/fi";
+import { FaInstagram,  } from "react-icons/fa";
+import {  FiLinkedin } from "react-icons/fi";
 
 const social_links_icons = [
   {
     icon: <FiGithub />,
-    link: "https://github.com/hamza-eshoul",
+    link: "https://github.com/Ainan-code/",
   },
   {
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/hamza.eshoul",
+    link: "https://www.instagram.com/ainanhassan/",
   },
-  {
-    icon: <FiTwitter />,
-    link: "https://twitter.com/hamza_eshoul",
-  },
-  {
-    icon: <FaYoutube />,
-    link: "https://www.youtube.com/channel/UCP21svaUb9Cn4M2zlLiEoKA",
-  },
+
   {
     icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/hamza-eshoul/",
+    link: "https://www.linkedin.com/in/ainan-hassan",
   },
 ];
 

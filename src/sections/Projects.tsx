@@ -28,16 +28,17 @@ const projects_list: ProjectData[] = [
   {
     isReverse: true,
     image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740227/personal_portfolio/messagingApp_mdy6gj.png",
-    title: "Messaging App",
-    repoLink: "https://github.com/hamza-eshoul/Messaging-App",
-    previewLink: "https://messaging-app-project.onrender.com",
+      "https://res.cloudinary.com/dicakrx1f/image/upload/v1730819247/portfolio/waw3emm07p9nb0vm3nd2.png",
+    title: "Ping-Me",
+    repoLink: "https://github.com/Ainan-code/Messaging-App",
+    previewLink: "https://ping-me-3urz.onrender.com",
     technologies: [
       "React",
       "Tailwind CSS",
       "Express.js",
       "MongoDB",
       "Socket.IO",
+      "Zustand"
     ],
     description: {
       text: "projects.messagingApp.description",

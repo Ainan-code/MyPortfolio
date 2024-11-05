@@ -18,7 +18,7 @@ const EmailLink = () => {
           href="mailto:hamza.eshoul.pro@gmail.com"
           className="email-link animate-email-link font-mono text-[12px]"
         >
-          hamza.eshoul.pro@gmail.com
+         idle.ainanhassan@gmail.com
         </a>
         <div className="bg-lightestTertiaryColor mt-5 h-24 w-[1px]" />
       </div>
