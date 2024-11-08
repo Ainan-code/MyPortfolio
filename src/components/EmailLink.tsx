@@ -15,7 +15,7 @@ const EmailLink = () => {
     >
       <div className="flex flex-col items-center gap-24">
         <a
-          href="mailto:hamza.eshoul.pro@gmail.com"
+          href="mailto:idle.ainanhassan@gmail.com"
           className="email-link animate-email-link font-mono text-[12px]"
         >
          idle.ainanhassan@gmail.com

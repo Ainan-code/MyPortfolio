@@ -12,46 +12,23 @@ interface NoteworthyProject {
 
 const noteworthy_projects_list: NoteworthyProject[] = [
   {
-    title: "Members Only",
-    repoLink: "https://github.com/hamza-eshoul/Odin-Members-Only-Project",
-    previewLink: "https://odin-members-only-project-skynter.onrender.com/",
-    technologies: ["Express.js", "MongoDB", "EJS", "Passport.js"],
-    description: "noteworthyProjects.membersOnly.description",
+    title: "Shopping Cart",
+    repoLink: "https://github.com/Ainan-code/ShoppingCart",
+    previewLink: "https://monumental-gelato-3ac8dd.netlify.app/",
+    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    description: "noteworthyProjects.Shoppingcart.description",
   },
-  {
-    title: "Battleship Game",
-    repoLink: "https://github.com/hamza-eshoul/Battleship",
-    previewLink: "https://hamza-eshoul.github.io/Battleship/",
-    technologies: ["HTML, CSS, JavaScript, Jest"],
-    description: "noteworthyProjects.battleship.description",
-  },
-  {
-    title: "Where's Waldo",
-    repoLink: "https://github.com/skynter/Where-s-Waldo",
-    previewLink: "https://photo-tagging-app-ad275.web.app/",
-    technologies: ["React, Tailwind CSS", "Firebase"],
-    description: "noteworthyProjects.wheresWaldo.description",
-  },
-  {
-    title: "CV Application",
-    repoLink: "https://github.com/hamza-eshoul/React-Cv-Project",
-    previewLink: "https://cv-generator-vezb.onrender.com",
-    technologies: ["React, Tailwind CSS"],
-    description: "noteworthyProjects.cvApplication.description",
-  },
+
+ 
+ 
   {
     title: "Memory Card Game",
-    repoLink: "https://github.com/hamza-eshoul/Memory-Card-Project",
-    previewLink: "https://odin-memory-card.onrender.com/",
-    technologies: ["React, Tailwind CSS"],
+    repoLink: "https://github.com/Ainan-code/Memory-Card-Game",
+    previewLink: "https://keen-strudel-2a65b7.netlify.app/",
+    technologies: ["React,  CSS"],
     description: "noteworthyProjects.memoryCard.description",
   },
-  {
-    title: "Binary Search Trees",
-    repoLink: "https://github.com/hamza-eshoul/Binary-Search-Trees",
-    technologies: ["JavaScript"],
-    description: "noteworthyProjects.binarySearchTrees.description",
-  },
+ 
 ];
 
 const NoteworthyProjects = () => {

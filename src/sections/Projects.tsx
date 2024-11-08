@@ -48,55 +48,18 @@ const projects_list: ProjectData[] = [
   {
     isReverse: false,
     image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740667/personal_portfolio/devLog_ahgymq.png",
-    title: "Dev Log",
-    repoLink: "https://github.com/hamza-eshoul/Dev-Log-Backend",
-    previewLink: "https://blog.hamzaeshoul.com/",
-    technologies: ["React", "TailwindCSS", "NestJS", "PostgreSQL"],
+      "https://res.cloudinary.com/dicakrx1f/image/upload/v1731066316/portfolio/hshmz4jmq6phu0dcxui8.png",
+    title: "Travel-Tales",
+    repoLink: "https://github.com/Ainan-code/Travel-Tales-Front-end",
+    previewLink: "https://travel-tales-3c8.netlify.app/",
+    technologies: ["React", "ExpressJs", "NodeJS", "MONGODB"],
     description: {
-      text: "projects.devLog.description",
-      highlight: "projects.devLog.highlight",
+      text: "projects.traveltales.description",
+      highlight: "projects.traveltales.highlight",
     },
   },
-  {
-    isReverse: true,
-    image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740228/personal_portfolio/instagramClone_m0tbrs.png",
-    title: "Instagram Clone",
-    repoLink: "https://github.com/hamza-eshoul/Instagram-Clone",
-    previewLink: "https://skynter-instagram-clone.onrender.com/",
-    technologies: ["React", "Tailwind CSS", "Firestore", "Firebase Storage"],
-    description: {
-      text: "projects.instagramClone.description",
-      highlight: "projects.instagramClone.highlight",
-    },
-  },
-  {
-    isReverse: false,
-    image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740228/personal_portfolio/odinBlog_kd6esl.png",
-    title: "Odin Blog",
-    repoLink: "https://github.com/hamza-eshoul/Blog-API",
-    previewLink: "https://odin-blog-project.onrender.com/",
-    technologies: ["React", "Tailwind CSS", "Express.js", "MongoDB"],
-    description: {
-      text: "projects.odinBlog.description",
-      highlight: "projects.odinBlog.highlight",
-    },
-  },
-  {
-    isReverse: true,
-    image:
-      "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728740227/personal_portfolio/shoppingCart_m9nfqg.png",
-    title: "Shopping Cart",
-    repoLink: "https://github.com/hamza-eshoul/Shopping-Cart-Project-Vite",
-    previewLink: "https://thunder-computation.onrender.com/",
-    technologies: ["React", "Tailwind CSS"],
-    description: {
-      text: "projects.shoppingCart.description",
-      highlight: "projects.shoppingCart.highlight",
-    },
-  },
+  
+ 
 ];
 
 const Projects = () => {

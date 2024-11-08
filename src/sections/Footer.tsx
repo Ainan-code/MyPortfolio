@@ -40,7 +40,7 @@ const Footer = () => {
 
       <div className="fade-in-animation flex flex-col items-center justify-center gap-2 pb-10 font-mono text-[12px]">
         <a
-          href="https://github.com/hamza-eshoul/Personal-Website"
+          href="https://github.com/Ainan-code"
           target="_blank"
           rel="noopener noreferrer"
           className="transition duration-300 ease-in-out hover:text-secondaryColor"

@@ -102,28 +102,17 @@
       "description": "A real-time chat application built with the MERN stack , powered by Socket.io for seamless, real-time messaging. Uses JWT for secure authentication and authorization. The app features live user status updates via Socket.io and React Context.",
       "highlight": "real-time chat application"
     },
-    "devLog": {
-      "description": "A personal blog platform designed to share my research and discoveries in web development. This project provides a space to document my learning journey, present tutorials, and explore new web technologies.",
-      "highlight": "personal blog platform"
+    "traveltales": {
+      "description": "A platform where travelers can share their journeys, discoveries, and insider tips with a global community. Users can write and publish stories about their adventures, from hidden gems to must-see spots, and offer practical advice to fellow explorers",
+      "highlight": "A platform"
     },
-    "instagramClone": {
-      "description": "A full-stack Instagram clone that implements the main features of the social media platform. Key features include authentication, creating and deleting posts, as well as a real-time user search interface.",
-      "highlight": "full-stack Instagram clone"
-    },
-    "odinBlog": {
-      "description": "A functional blog allowing users to authenticate, read articles, and add comments. The frontend part of the blog is powered by a RESTful API created through Express.js and MongoDB.",
-      "highlight": "functional blog"
-    },
-    "shoppingCart": {
-      "description": "An online computer store created through React to reflect, in real-time, changes resulting from user interactions. The site allows users to browse, add, and remove items from their cart.",
-      "highlight": "online computer store"
-    },
+   
     "featuredProject": "Featured Project"
   },
   "noteworthyProjects": {
     "title": "Other Noteworthy Projects",
-    "membersOnly": {
-      "description": "An exclusive clubhouse application created using Express.js and Passport.js for authentication."
+    "Shoppingcart": {
+      "description": "An e-commerce store that provides a seamless shopping experience with real-time cart updates. As you browse, the cart automatically reflects changes, including item quantities and total prices, ensuring you’re always in the know."
     },
     "battleship": {
       "description": "A strategic multiplayer game built with Vanilla JavaScript and driven by tests implemented through Jest."
@@ -135,7 +124,7 @@
       "description": "A CV generator allowing users to dynamically create professional resumes."
     },
     "memoryCard": {
-      "description": "A memory game including 12 cards and 12 characters created using React."
+      "description": "A memory game including 4 cards created using React."
     },
     "binarySearchTrees": {
       "description": "An implementation of the binary search tree data structure written in JavaScript."
