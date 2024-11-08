@@ -83,7 +83,7 @@ const Navbar = () => {
 // put the url of the CV when I make it //
   const cvUrl =
     
-    "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/g7ndruwvhqslwmtzukgo"
+    "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/ddggtohecuzmyuojrzn9"
   
   return (
     <header>
