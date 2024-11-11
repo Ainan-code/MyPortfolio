@@ -25,8 +25,8 @@ const ResumeButton = () => {
 
   const cvUrl =
     i18n.language === "en"
-      ? "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728741033/personal_portfolio/Hamza-Eshoul-Front-End-Developer-Resume_dn5qjp.pdf"
-      : "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728739422/personal_portfolio/CV_Hamza_Eshoul_c412jb.pdf";
+      ? "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/ddggtohecuzmyuojrzn9"
+      : "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/ddggtohecuzmyuojrzn9";
 
   return (
     <li className="group relative h-[46px] w-[180px]">
