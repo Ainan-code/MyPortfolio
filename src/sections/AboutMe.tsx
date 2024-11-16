@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer";
 import { useTranslation } from "react-i18next";
 
 const aboutMeImageUrl =
-  "https://res.cloudinary.com/dfrd9rf2c/image/upload/v1728738550/personal_portfolio/react_nestjs_hqe4kg.png";
+  "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/reyywvu06wthdjbjelwk";
 
 const AboutMe = () => {
   const { t } = useTranslation();
