@@ -1,0 +1,144 @@
+{
+    "navbar": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "cv": "Resume"
+    },
+    "hero": {
+      "greeting": "Hello, I am",
+      "tagline": "I am a web developer who loves to turn ideas into fully developed applications.",
+      "description": {
+        "part1": "As a",
+        "webDeveloper": "Full-stack developer,",
+        "part2": "I love crafting modern, user-centric websites and web applications",
+        "technologies": "that leverage cutting-edge JavaScript technologies to deliver exceptional digital experiences."
+      },
+      "contactButton": "Get in touch!"
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "paragraph1": {
+        "part1": "I honed my web development skills through",
+        "odinProject": "The Odin Project",
+        "part2": ",an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer. "
+      },
+      "paragraph2": {
+        "part1": "I’m always eager to explore new concepts, technologies, and tools to enhance my ability to create ",
+        "emphasis": "customer-centered web experiences."
+      },
+      "paragraph3": {
+        "part1": "I specialize in using the JavaScript library,",
+        "react": "React",
+        "part2": "to create the",
+        "frontend": "frontend",
+        "part3": "of my applications and the",
+        "nestjs": "ExpressJS",
+        "part4": "framework, as well as the Non relational database",
+        "postgresql": "MongoDB",
+        "part5": "to create",
+        "restfulApis": "RESTful APIs",
+        "part6": "to power the",
+        "backend": "backend",
+        "part7": "of these applications."
+      },
+      "imageAlt": "React and NestJS logos"
+    },
+    "skills": {
+      "title": "Skills & Technologies",
+      "categories": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "devops": "DevOps"
+      },
+      "frontend": {
+        "html": "HTML",
+        "css": "CSS",
+        "typescript": "TypeScript",
+        "react": "React",
+        "tailwindCss": "Tailwind CSS",
+        "vueJs": "Vue.js",
+        "tanstackQuery": "TanStack Query",
+        "nextJs": "Next.js",
+        "redux": "Redux",
+        "daisyUi": "Daisy UI"
+      },
+      "backend": {
+        "nodeJs": "Node.js",
+       
+        "mongodb": "MongoDB",
+      
+        "expressJs": "Express.js",
+       
+        "firebase": "Firebase"
+      },
+      "devops": {
+        "git": "Git",
+        "github": "GitHub",
+        "webpack": "Webpack",
+      
+        "render": "Render"
+      },
+      "mainTechnologies": "Main Technologies",
+      "complementaryTechnologies": "Complementary Technologies"
+    },
+    "projects": {
+      "title": "Projects",
+      "info": {
+        "part1": "Projects that include ",
+        "highlight1": "Express.js APIs for the backend ",
+        "part2": "(e.g., VibeCircle, Messaging App ...) will need a few seconds to make their servers operational following an initial request. The APIs for these projects are hosted for free on the ",
+        "part3": "platform, which ",
+        "highlight2": "suspends the activity ",
+        "part4": "of hosted servers ",
+        "highlight3": "after 15 minutes of inactivity."
+      },
+      "VibeCircle": {
+        "description": "A social media application designed to promote community engagement and interaction. Built using the MERN stack  and styled with Tailwind CSS, this platform enables users to create, share, and interact with posts effortlessly.",
+        "highlight": "social media application"
+      },
+      "messagingApp": {
+        "description": "A real-time chat application built with the MERN stack , powered by Socket.io for seamless, real-time messaging. Uses JWT for secure authentication and authorization. The app features live user status updates via Socket.io and React Context.",
+        "highlight": "real-time chat application"
+      },
+      "traveltales": {
+        "description": "A platform where travelers can share their journeys, discoveries, and insider tips with a global community. Users can write and publish stories about their adventures, from hidden gems to must-see spots, and offer practical advice to fellow explorers",
+        "highlight": "A platform"
+      },
+     
+      "featuredProject": "Featured Project"
+    },
+    "noteworthyProjects": {
+      "title": "Other Noteworthy Projects",
+      "Shoppingcart": {
+        "description": "An e-commerce store that provides a seamless shopping experience with real-time cart updates. As you browse, the cart automatically reflects changes, including item quantities and total prices, ensuring you’re always in the know."
+      },
+      "battleship": {
+        "description": "A strategic multiplayer game built with Vanilla JavaScript and driven by tests implemented through Jest."
+      },
+      "wheresWaldo": {
+        "description": "An interactive version of 'Where's Waldo?', a game consisting of finding multiple characters in an image."
+      },
+      "cvApplication": {
+        "description": "A CV generator allowing users to dynamically create professional resumes."
+      },
+      "memoryCard": {
+        "description": "A memory game including 4 cards created using React."
+      },
+      "binarySearchTrees": {
+        "description": "An implementation of the binary search tree data structure written in JavaScript."
+      }
+    },
+    "contact": {
+      "nextStep": "What's Next?",
+      "title": "Get In Touch",
+      "description": "Feel free to reach out if you have a question or want to work together. I'll be happy to respond!",
+      "buttonText": "Say Hello"
+    },
+    "footer": {
+      "developedBy": "Developed by Ainan Idle",
+      "designedBy": "Designed by Brittany Chiang"
+    }
+  }
+  

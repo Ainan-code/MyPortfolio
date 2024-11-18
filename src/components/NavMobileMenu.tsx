@@ -25,8 +25,8 @@ const ResumeButton = () => {
 
   const cvUrl =
     i18n.language === "en"
-      ? "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/ddggtohecuzmyuojrzn9"
-      : "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/ddggtohecuzmyuojrzn9";
+      ? "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/olfvdbmxx0yovtb6qhgx"
+      : "https://res.cloudinary.com/dicakrx1f/image/upload/f_auto,q_auto/v1/portfolio/olfvdbmxx0yovtb6qhgx";
 
   return (
     <li className="group relative h-[46px] w-[180px]">
